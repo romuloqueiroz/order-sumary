@@ -11,7 +11,7 @@
 
 
 body {
-    background-image: url("/images/pattern-background-desktop.svg");
+    background-image: url("./images/pattern-background-desktop.svg");
     background-repeat: no-repeat;
     background-size: 100%;
     background-color: hsl(225, 100%, 98%);
@@ -153,6 +153,6 @@ body {
 
 @media screen and (min-width: 375px) and (max-width: 1444px) {
     body {
-        background-image: url("/images/pattern-background-mobile.svg");
+        background-image: url("./images/pattern-background-mobile.svg");
     }
 }
