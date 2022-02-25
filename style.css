@@ -1,0 +1,158 @@
+@import url('https://fonts.google.com/specimen/Red+Hat+Display');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Red Hat Display', sans-serif;
+}
+
+
+
+
+body {
+    background-image: url("./images/pattern-background-desktop.svg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-color: hsl(225, 100%, 98%);
+    background-position: top;
+}
+
+.card {
+    margin: 150px auto;
+    width: 450px;
+    height: 100%;
+    border-radius: 25px;
+    background-color: hsl(225, 100%, 98%);
+    box-shadow: 0px 19px 37px -5px rgba(0, 0, 0, 0.46);
+}
+
+.header img {
+    width: 100%;
+    border-radius: 20px 20px 0 0;
+}
+
+.content {
+    padding: 40px;
+}
+
+.content h1 {
+    text-align: center;
+}
+
+.content p {
+    padding: 20px 0 0 0;
+    color: hsl(224, 23%, 55%);
+    font-weight: 700;
+    line-height: 30px;
+    text-align: center;
+}
+
+.inside-card {
+    background-color: hsl(222, 79%, 94%);
+    margin: 0px 50px 40px;
+    padding: 30px;
+    border-radius: 20px;
+    display: flex;
+    height: auto;
+    gap: 15px;
+    align-items: center;
+}
+
+.inside-card img {
+    margin-top: 10px;
+}
+
+.inside-card a {
+    font-weight: 700;
+    color: hsl(245, 75%, 52%);
+    text-decoration: underline;
+    padding-left: 60px;
+}
+
+.inside-card a:hover {
+    color: hsl(224, 23%, 55%);
+    text-decoration: none;
+}
+
+.inside-card span {
+    font-weight: 700;
+    color: black;
+
+}
+
+.inside-card p {
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    line-height: 25px;
+    color: hsl(230, 5%, 56%);
+    font-weight: 700;
+}
+
+.btn-payment {
+    background-color:hsl(245, 75%, 52%) ;
+    margin-left: 35px;
+    padding: 20px 100px;
+    font-weight: 900;
+    font-size: 16px;
+    color: #fff;
+    border-style: none;
+    border-radius: 15px;
+    box-shadow: 0px 17px 37px -5px rgba(0, 0, 0, 0.46);
+}
+
+.btn-payment:hover{
+    background-color:hsl(224, 23%, 55%);
+    cursor: pointer;
+}
+
+.btn-cancel{
+    margin-left: 180px;
+    padding: 45px 0;
+    font-size: 16px;
+    font-weight: 700;
+    color: hsl(224, 23%, 55%);
+    border-style: none;
+    background-color: transparent;
+    align-items: center;
+}
+
+.btn-cancel:hover{
+    color: black;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+    line-height: 15px;
+}
+
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
+
+@media screen and (min-width: 375px) and (max-width: 1444px) {
+    body {
+        background-image: url("./images/pattern-background-mobile.svg");
+    }
+}
