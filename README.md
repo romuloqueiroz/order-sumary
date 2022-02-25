@@ -2,4 +2,4 @@
 
 ![Design preview for the Order summary card coding challenge](./design/desktop-preview.jpg)
 
-HTML, CSS based on the challenge from Frontend Mento.
+HTML, CSS based on the challenge from Frontend Mentor.
